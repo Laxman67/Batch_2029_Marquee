@@ -1,0 +1,37 @@
+
+
+// Task 1: File System
+
+// Task 2
+// Coffee Making  simulation
+// 1. Clean your equipment.
+// 2. Choose fresh beans.
+// 3. Grind the beans.
+// 4. Use clean, hot water.
+// 5. Brew and serve.
+
+
+=======File System Events =======
+
+Task 1: Create a File on Start
+Create an EventEmitter and emit a 'fileCreated' event when a file is successfully created inside a folder named `Configuration`. Attach a listener that logs the file name (config.txt).
+
+path: /Configuration/config.txt
+
+==============================================================================================
+Task 2: Create a Folder on Event
+Emit a `folderCreate` event with a folder name as the argument. The listener should use fs.mkdirSync() to create that folder, then emit a folderCreated event once it exists.
+==============================================================================================
+
+
+Task 3: Chain Folder and File Creation
+Emit a folderCreated event, and in its listener, create a file called notes.txt inside the new folder. Then emit a fileCreated event and log a success message.
+==============================================================================================
+
+
+Task 4: Handle Errors with an Event
+Try to create a file inside a folder that does not exist. If fs.writeFileSync() throws an error, emit an errorOccurred event with the error message. Write a listener that logs the error and keeps the program running.
+==============================================================================================
+
+Task 5: Coffee Order Files
+Using the coffeeEmitter from the starter code, emit an orderPlaced event each time a customer orders coffee. The listener should append the order details to a file called orders.txt inside an orders folder, then emit an orderSaved event.

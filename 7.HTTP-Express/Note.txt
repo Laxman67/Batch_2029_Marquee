@@ -1,0 +1,83 @@
+  ! Important CONCEPTS: Before `Express.js`
+
+  what is `http` module
+  Let's UNDERSTAND Req,Res Object from Req-Res Cycle
+
+
+
+
+Meaning: Request: The `req` object contains information about the incoming request.
+1. Method
+    GET, POST, PUT, PATCH, DELETE
+
+2. URL / Route
+   The endpoint requested by the client.
+    Example: /users, /products, /login
+
+3. Headers
+     Additional information about the request.
+     Example: Content-Type, Authorization, User-Agent
+
+4. Data / Body
+     Data sent by the client to the server.
+     Mostly used with POST, PUT, and PATCH requests.
+
+
+
+  Meaning: Response: The `res` object is used to send a response back to the client.
+  1. res.write() : to write response data
+  2. res.end():  Ends the response.
+  OR res.end("Hello World");
+  3. res.statusCode = 200;
+  NOTE: 4. res.setHeader("Content-Type", "text/plain");
+  4.  send HTML FILE -> must know html content type
+
+
+
+  Check for Requests from Client:
+  - Routes like '/users' or /user:1
+  - Methods like GET , POST, PUT , Delete and PATCH
+  - Send Response based on Requested Route and Method
+
+
+Task: 1
+create routes for / and send Response `Welcome to Home Route`
+
+====================================================================================
+
+Task 2:
+create  route for `/user` with different methods like in  GET POST, PATCH ,PUT, DELETE,
+and send Responses
+
+====================================================================================
+
+Task 3:
+Create HTML FIle `index.html` and send response
+
+Step: 3.1 = create HTML FIle
+
+Heading -  Welcome to Sports Form
+Para-  Some description about the  Sport and Events
+
+====FORM====== *method and *action
+
+==== create lables and inputs ====
+
+* username
+* age
+* select sports choice -  Checkbox ( Footbal, Volleyball , Badminton, Cricket, 100 Mtr)
+* department  (select Multiple Options ) like IT, Management, Law
+* Submit Button
+
+Action Page ==> fromSuccess.html  : Submitted Successfully Page!
+
+Step 3.2 : create route /sport-form -- with POST request and
+--- LOG the data submitted by Form
+
+====================================================================================
+
+
+
+
+
+

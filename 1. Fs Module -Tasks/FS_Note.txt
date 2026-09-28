@@ -1,0 +1,61 @@
+
+
+
+TODO: Task 1 - *writeFile : Write object data to `newBook.json` file
+
+const books = {
+  title: 'Alli goes to school',
+  genre: 'Fiction',
+  type: 'Children',
+  pages: 56,
+}
+
+
+
+
+
+
+TODO: Task 2 - *readFile : create a file named `newBook.json` and read its content
+
+{
+  "title": "Alli goes to school",
+  "genre": "Fiction",
+  "type": "Children",
+  "pages": 56
+}
+
+
+
+TODO: Task 2.1 - *writeFileSync : create `config.json` and write the content
+
+ {
+   ip: "192.0.2.1",
+   port: 3000,
+   env: "production",
+  }
+
+// TODO: Task 3 - *appendFile(Optional) :
+
+// read data from `config.json` and append some data like
+
+
+// READ _> WRITE -> READ
+
+// / ==========INITIAL DATA======
+
+// {
+//   "ip": "192.0.2.1",
+//   "port": 3000,
+//   "env": "production",
+// }
+
+// ==========FINAL OUTPUT======
+// {
+//   "ip": "192.0.2.1",
+//   "port": 3000,
+//   "env": "production",
+//   "createdAt": "9/18/2026",
+//   "isAmin": true
+// }
+
+// TODO: Task 4 - unlink: Create a file names `temporary.txt` and delete it after 2 seconds

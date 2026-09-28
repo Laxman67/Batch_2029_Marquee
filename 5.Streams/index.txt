@@ -1,0 +1,7 @@
+Streams can be categorized into 4 types:
+
+- Readable Streams represent a source from which data can be read.
+- Writable Streams represent a destination where data can be written.
+- Duplex Streams can be both readable and writable.
+- Transform streams are a special type of duplex stream that can modify or transform the data while it is being read or written.
+

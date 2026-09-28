@@ -1,0 +1,74 @@
+{
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#78350F",
+      "backgroundColor": "#FEF3C7"
+    },
+    {
+      "text": "CONCEPTS:",
+      "color": "#36750F",
+      "backgroundColor": "#FEF3C7"
+    },
+    {
+      "text": "Meaning:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#2563EB"
+    },
+    {
+      "text": "explicitly",
+      "color": "#FFFFFF",
+      "backgroundColor": "#2563EB"
+    },
+    {
+      "text": "TODO+",
+      "color": "#FFFFFF",
+      "backgroundColor": "#D97706"
+    },
+    {
+      "text": "Task",
+      "color": "#FFFFFF",
+      "backgroundColor": "#D97706"
+    },
+    {
+      "text": "Step",
+      "color": "#FFFFFF",
+      "backgroundColor": "#D90706"
+    },
+    {
+      "text": "Point:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#0F766E"
+    },
+    {
+      "text": "BUG:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#DC2626"
+    },
+    {
+      "text": "Example:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#0891B2"
+    },
+    {
+      "text": "REVIEW:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#4F46E5"
+    },
+    {
+      "text": "FIXME:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#7C3AED"
+    },
+    {
+      "text": "NOTE:",
+      "color": "#065F46",
+      "backgroundColor": "#D1FAE5"
+    },
+    {
+      "text": "LINK:",
+      "color": "#FFFFFF",
+      "backgroundColor": "#0284C7"
+    }
+  ]
+}

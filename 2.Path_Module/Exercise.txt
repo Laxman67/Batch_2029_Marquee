@@ -1,0 +1,75 @@
+https://blog.logrocket.com/reading-writing-json-files-node-js-complete-tutorial/
+
+
+
+(1):
+
+Scenario: Imagine a user uploads a file to your server at the path
+"downloads/user_reports/annual_summary.pdf".
+You need to inspect this path and verify the file before processing it.
+
+Input : "downloads/user_reports/annual_summary.pdf"
+
+Output :
+
+// Directory: downloads/user_reports
+// Extension: .pdf
+// FileName (no ext): annual_summary
+// Exists on disk: false
+
+
+(2):
+
+Exercise: The Smart Path Navigator & Folder Builder
+- Scenario: A deployment script receives messy path segments with parent directory
+navigators (..).
+- It needs to calculate the clean target path and
+automatically create that folder structure on your machine.
+
+Input : "your/project/dir/../dir/temp/logs/../logs/archive/code.js"
+
+Output :
+
+// CleanPath: /your/project/dir/temp/logs/archive/code.js
+
+automatically create that folder structure on your machine.
+
+
+(3)
+
+
+Scenario: A deployment script receives mixed configuration paths.
+It needs to check if the path is valid/absolute, parse it,
+change the file extension from .tmp to .json, reconstruct the path,
+and write the initial config data.
+
+
+Input : conifg/app.tmp
+
+Output:
+
+Path is valid/absolute : YES
+
+change the file extension from .tmp to .json
+
+
+
+(4):
+
+Exercise: The Smart Paths Navigator & Folder Builder
+- Scenario: A deployment script receives messy path segments with parent directory
+navigators (..).
+- It needs to calculate the clean target path and
+automatically create that folder structure on your machine.
+
+const Input = [
+    "your/project/dir/../dir/temp/logs/../logs/archive/code.js",
+    "me/project/dir/../dir/temp/logs/../logs/archive/code.js",
+    "new/hello.java",
+]
+
+Output :
+
+// CleanPath: /your/project/dir/temp/logs/archive/code.js
+
+automatically create that folder structure on your machine.

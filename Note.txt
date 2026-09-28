@@ -1,0 +1,42 @@
+Fs Module
+===========
+1. File Operations
+--------------------
+- readFile  ✅
+- writeFile  ✅
+- delete=> unlink
+- rename
+- appendFile
+
+TODO: There are three ways to do these Operations
+1. Synchronous
+2. Asynchronous
+3. Promise Based
+
+
+2. Directory Operations using FS Module
+
+
+****Create and delete Directory******
+
+-1.  Make Directory - > recursive Option  ✅
+-2.  Remove Directory ✅
+  TODO: Force delete non-empty folders: Use fs.rm() or fs.rmSync() with the { recursive: true, force: true }
+
+
+***** Reading and Checking Directory******
+1.   List contents: Use fs.readdir() or fs.readdirSync() to get
+  an array of all file and folder names inside a directory.
+
+Optional: { withFileTypes: true } :
+
+Get detailed content info: Pass { withFileTypes: true } inside readdir to get Dirent objects. This lets you immediately check if an item is a file or a subdirectory using .isFile() or .isDirectory()
+
+
+2.Folder Existence :  Use fs.existsSync(path,()=>{}) to check if a directory path is valid
+
+
+
+****Modifying and Moving Directories*****
+
+1. : Use fs.rename() or fs.renameSync() to change a folder's name
